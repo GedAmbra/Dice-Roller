@@ -30,6 +30,11 @@ button:hover {
   background-color: slategray;
 }
 
+button:focus {
+  outline: none;
+  background-color: slategray;
+}
+
 .dices {
   display: flex;
   justify-content: center;
