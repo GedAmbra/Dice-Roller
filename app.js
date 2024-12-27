@@ -4,7 +4,8 @@ const number2 = document.getElementById("number2");
 const number3 = document.getElementById("number3");
 const numToal = document.getElementById("numTotal");
 
-function diceRoll() {
+function diceRoll() 
+{
   let roll1 = Math.floor(Math.random() * 6) + 1;
   number1.innerHTML = roll1;
 
